@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C284DD15-3355-4C6A-9EE0-D0A3BEA4D8A5}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebMVC", "..\SampleWebMVC\SampleWebMVC.csproj", "{4C45567A-DC7E-4B43-9774-C237A9679E6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDesktop", "..\SampleDesktop\SampleDesktop.csproj", "{E40E39D8-4ABD-4A25-A87C-5759CCFD6E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckYourHealth", "..\CheckYourHealth\CheckYourHealth.csproj", "{2A77F875-6A0F-499A-87A1-CD38F25EABDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2C08C58-269F-45DE-8A25-C5492BC625F8} = {D2C08C58-269F-45DE-8A25-C5492BC625F8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +50,10 @@ Global
 		{E40E39D8-4ABD-4A25-A87C-5759CCFD6E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40E39D8-4ABD-4A25-A87C-5759CCFD6E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40E39D8-4ABD-4A25-A87C-5759CCFD6E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A77F875-6A0F-499A-87A1-CD38F25EABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A77F875-6A0F-499A-87A1-CD38F25EABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A77F875-6A0F-499A-87A1-CD38F25EABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A77F875-6A0F-499A-87A1-CD38F25EABDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
